@@ -4,7 +4,7 @@ btnVolver.onclick = function () {
 };
 
 const modificarCompra = () => {
-    window.location.href = "/index.html";
+    window.location.href = "./index.html";
 }
 
 const btnComprar = document.getElementById("btn-comprar");
@@ -59,7 +59,7 @@ const getStorage = (key) => {
 
 const GetCategorias = async () => {
     try {
-        const response = await fetch("data/dataCategorias.json");
+        const response = await fetch("./data/dataCategorias.json");
         if (!response.ok) {
             throw new Error('No fue posible cargar las categorias de productos: cod.status(' + response.status + ")");
         }
