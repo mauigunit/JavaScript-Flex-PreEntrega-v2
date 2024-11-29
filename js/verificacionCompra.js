@@ -4,7 +4,7 @@ btnVolver.onclick = function () {
 };
 
 const modificarCompra = () => {
-    window.location.href = "/../index.html";
+    window.location.href = "index.html";
 }
 
 const btnComprar = document.getElementById("btn-comprar");
