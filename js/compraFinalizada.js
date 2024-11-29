@@ -4,7 +4,7 @@ btnVolver.onclick = function () {
 };
 
 const volverASuper = () => {
-    window.location.href = "../index.html";
+    window.location.href = "/index.html";
 }
 
 const getStorage = (key) => {

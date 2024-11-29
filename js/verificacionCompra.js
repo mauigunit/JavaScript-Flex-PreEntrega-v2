@@ -4,7 +4,7 @@ btnVolver.onclick = function () {
 };
 
 const modificarCompra = () => {
-    window.location.href = "../index.html";
+    window.location.href = "/index.html";
 }
 
 const btnComprar = document.getElementById("btn-comprar");
@@ -37,7 +37,7 @@ const pagarCompra = () => {
     localStorage.setItem("titular", JSON.stringify(
         {"nombre" : nombre.value }
     ));
-    window.location.href = "./compraFinalizada.html";
+    window.location.href = "compraFinalizada.html";
 }
 
 const mensajeAlerta = (icon, message, title) => {
