@@ -118,6 +118,7 @@ const fnVerProductosCarrito = () => {
 const GetCategorias = async () => {
     try {
         const response = await fetch("../data/dataCategorias.json");
+        console.log(response);
         if (!response.ok) {
             throw new Error('No fue posible cargar las categorias de productos: cod.status(' + response.status + ")");
         }
